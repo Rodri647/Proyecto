@@ -44,7 +44,7 @@ export default function Contact() {
 				</SimpleGrid>
 			</Box>
 
-      <Flex>
+      {/* <Flex>
         <Box
           bg="#2D284A"
           color="#BEBDC0"
@@ -169,7 +169,7 @@ export default function Contact() {
             </Wrap>
           </Box>
         </Box>
-      </Flex>
+      </Flex> */}
     </Container>
   )
 }

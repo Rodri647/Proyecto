@@ -1,0 +1,22 @@
+{
+  "name": "website_bikes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "npm@9.5.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "turbo": "turbo run dev",
+    "build": "turbo build",
+    "start": "node apps/server/dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.0.14"
+  }
+}
